@@ -51,3 +51,24 @@ body {
   bottom: 10px;
   background-color: none;
 }
+
+.cirriculm-header,
+.free-header,
+.contact-header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.free-section {
+  background-color: rgb(38, 103, 233);
+  height: 15vh;
+  color: white;
+  text-align: center;
+}
+
+.free-statement {
+  text-align: inherit;
+  width: 300px;
+  word-wrap: break-word;
+  margin-left: 14rem;
+}
