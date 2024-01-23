@@ -3,30 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WDS Bootcamp</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <nav class="nav-bar">
-      <img src="images/wds_logo.png" alt="Web Dev Simplifed Logo" />
-      <ul class="nav-list">
-        <li class="nav-list-items">Curriculum</li>
-        <li class="nav-list-items">Pricing</li>
-        <li class="nav-list-items"><button class="btn">Contact</button></li>
-      </ul>
-    </nav>
-    <section>
-      <div class="container-lrg">
-        <img src="images/header_image.jpg" alt="header image" />
-        <div class="cont-lrg-item"><h1>WDS Bootcamp</h1></div>
-        <div class="cont-lrg-item"><h2>From No Stack To Full Stack</h2></div>
-        <div class="cont-lrg-item"><button>Learn More</button></div>
-        <button class="cont-lrg-item-dwn">
-          <img src="images/arrow_down.svg" alt="" />
-        </button>
-      </div>
-    </section>
-    <section>
+    <header class="full-screen-header">
+      <nav class="nav nav-top">
+        <img src="images/wds_logo.png" alt="Web Dev Simplifed Logo" />
+        <ul class="nav-list">
+          <li class="nav-list-items"><a href="#">Curriculum</a></li>
+          <li class="nav-list-items"><a href="#">Pricing</a></li>
+          <li class="nav-list-items"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="cont-lrg-item">WDS Bootcamp</h1>
+      <span class="cont-lrg-item">From No Stack To Full Stack</span>
+      <a class="cont-lrg-item" href="#">Learn More</a>
+      <img
+        class="cont-lrg-item-dwn"
+        src="images/arrow_down.svg"
+        alt="Scroll down icon"
+      />
+    </header>
+
+    <section class="cirriculm-section">
       <h1 class="cirriculm-header">Cirriculm</h1>
       <div>
         <img src="images/html_icon.svg" alt="" />
@@ -62,13 +63,16 @@
     </section>
     <section>
       <h1 class="contact-header">Contact</h1>
-      <form action="">
-        <label for="fname">Name</label>
-        <input type="text" />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" />
-        <label for="message">Message</label>
-        <input type="text" name="message" id="message" />
+      <form class="contact-section" action="">
+        <div><label for="fname">Name</label></div>
+        <div><input class="input" type="text" /></div>
+        <div><label for="email">Email</label></div>
+        <div><input class="input" type="email" name="email" id="email" /></div>
+        <div><label for="message">Message</label></div>
+        <div>
+          <textarea class="input" name="" id="" cols="16" rows="5"></textarea>
+        </div>
+        <button class="send-button">Send</button>
       </form>
     </section>
     <footer class="footer">
