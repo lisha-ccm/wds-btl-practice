@@ -25,6 +25,7 @@ body {
   align-items: center;
   list-style: none;
   background-color: #1b2522;
+  padding: 0.5rem 1rem;
 }
 
 .nav-top {
@@ -38,13 +39,28 @@ body {
 
 .nav-list {
   margin: 0;
+  padding: 0;
   display: flex;
   list-style-type: none;
   color: white;
 }
 
-.nav-list-items {
+/* .nav-list-items {
   margin: 0 1rem;
+} */
+
+.nav-list a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: white;
+}
+
+.nav-list a:hover {
+  color: #ccc;
+}
+
+.logo {
+  width: 50px;
 }
 /*.nav-bar,
 .footer {
