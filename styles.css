@@ -15,8 +15,11 @@ body {
   background-position-x: 40%;
   background-position-y: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+  position: relative;
 }
 
 .nav {
@@ -61,6 +64,38 @@ body {
 
 .logo {
   width: 50px;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  border-radius: 10000px;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: hsl(200, 100%, 40%);
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 1rem;
+  width: 30px;
 }
 /*.nav-bar,
 .footer {
