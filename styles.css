@@ -85,6 +85,7 @@ body {
   text-decoration: none;
   border: none;
   cursor: pointer;
+  font-size: inherit;
 }
 
 .btn:hover,
@@ -143,7 +144,7 @@ body {
   left: 50%;
   bottom: 10px;
   background-color: none;
-} */
+} 
 
 .cirriculm-section {
   column-count: 2;
@@ -157,33 +158,94 @@ body {
 .free-header,
 .contact-header {
   text-align: center;
-}
+} */
 
-.free-section {
-  background-color: rgb(38, 103, 233);
-  height: 15vh;
-  color: white;
+.section {
+  padding: 2rem;
 }
-
-.free-header {
-  padding-top: 2rem;
-  font-size: 2.5rem;
+.section-title {
   margin: 0;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: black;
+}
+
+.cirriculm-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 450px));
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 50px;
+}
+
+.cirriculm-grid-item {
+  display: flex;
+  align-items: center;
+}
+.cirriculm-grid-item img {
+  width: 50px;
+  margin-right: 1rem;
 }
 
 .free-statement {
-  text-align: center;
-  margin-bottom: 100px;
-  margin-top: 0;
+  color: white;
+  max-width: 300px;
 }
 
-.contact-section {
-  margin: 1rem;
-  text-align: center;
+.section-accent {
+  background-color: hsl(200, 100%, 50%);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.free-title {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.form label {
+  color: black;
   font-weight: bold;
 }
 
-.input {
-  margin-bottom: 10px;
+.form input,
+.form textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+  margin-bottom: 0.75rem;
+  outline: none;
+  border: 1px solid #1b2522;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  color: inherit;
+  font-family: inherit;
+}
+
+.form textarea {
+  resize: vertical;
+  min-height: 75px;
+  max-height: 200px;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #0af;
+}
+
+.btn-container {
+  text-align: end;
+}
+
+.btn-square {
+  border-radius: 0.3em;
 }

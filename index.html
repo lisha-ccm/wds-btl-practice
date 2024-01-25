@@ -30,62 +30,90 @@
         alt="Scroll down icon"
       />
     </header>
+    <main>
+      <section class="section">
+        <h1 class="section-title">Cirriculm</h1>
+        <div class="cirriculm-grid">
+          <div class="cirriculm-grid-item">
+            <img src="images/html_icon.svg" alt="HTML 5 Icon" />
+            <p>
+              Start with the basics by learning HTML/CSS to built your first
+              website
+            </p>
+          </div>
+          <div class="cirriculm-grid-item">
+            <img src="images/node_js_icon.svg" alt="NodeJS Icon" />
+            <p>
+              Built interactive web applications with the worlds most popular
+              backend
+            </p>
+          </div>
 
-    <section class="cirriculm-section">
-      <h1 class="cirriculm-header">Cirriculm</h1>
-      <div>
-        <img src="images/html_icon.svg" alt="" />
-        <span>Start with the basics</span>
-      </div>
-      <div>
-        <img src="images/vscode_icon.svg" alt="" />
-        <span>use the latest technology</span>
-      </div>
-      <div>
-        <img src="images/edit_page_icon.svg" alt="" />
-        <span>create stunning designs</span>
-      </div>
-      <div>
-        <img src="images/node_js_icon.svg" alt="" />
-        <span>built interactive web applications</span>
-      </div>
-      <div>
-        <img src="images/database_icon.svg" alt="" />
-        <span>manage application data</span>
-      </div>
-      <div>
-        <img src="images/react_icon.svg" alt="" />
-        <span>use the most popular frontend framework</span>
-      </div>
-    </section>
-    <section class="free-section">
-      <h1 class="free-header">FREE</h1>
+          <div class="cirriculm-grid-item">
+            <img src="images/vscode_icon.svg" alt="VSCode Icon" />
+            <p>
+              Use the latest technology for editing and creating amazing web
+              applications
+            </p>
+          </div>
+          <div class="cirriculm-grid-item">
+            <img src="images/database_icon.svg" alt="Database Icon" />
+            <p>
+              Manage application data by learning SQL and NoSQL database
+              architecture
+            </p>
+          </div>
+
+          <div class="cirriculm-grid-item">
+            <img src="images/edit_page_icon.svg" alt="Edit Page Icon" />
+            <p>
+              Create stunning designs by using modern design tools like Figma
+              and Sketch
+            </p>
+          </div>
+
+          <div class="cirriculm-grid-item">
+            <img src="images/react_icon.svg" alt="React Icon" />
+            <p>Use the most popular frontend framework to create modern PWAs</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="section section-accent">
+      <h2 class="section-title free-title">FREE</h2>
       <p class="free-statement">
         That's right. All of this amazing content is available completely free
         on YouTube!
       </p>
     </section>
-    <section>
-      <h1 class="contact-header">Contact</h1>
-      <form class="contact-section" action="">
-        <div><label for="fname">Name</label></div>
-        <div><input class="input" type="text" /></div>
-        <div><label for="email">Email</label></div>
-        <div><input class="input" type="email" name="email" id="email" /></div>
-        <div><label for="message">Message</label></div>
-        <div>
-          <textarea class="input" name="" id="" cols="16" rows="5"></textarea>
-        </div>
-        <button class="send-button">Send</button>
+    <section class="section">
+      <h2 class="section-title">Contact</h2>
+      <form class="form">
+        <label for="fname">Name</label>
+        <input class="input" type="text" name="name" id="name" />
+        <label for="email">Email</label>
+        <input class="input" type="email" name="email" id="email" />
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
       </form>
+      <div class="btn-container">
+        <button class="btn btn-square" type="submit">Send</button>
+      </div>
     </section>
     <footer class="footer">
-      <img src="images/wds_logo.png" alt="Web Dev Simplifed Logo" />
-      <ul class="nav-list">
-        <li class="nav-list-items">Curriculum</li>
-        <li class="nav-list-items">Pricing</li>
-        <li class="nav-list-items"><button class="btn">Contact</button></li>
-      </ul>
+      <nav class="nav">
+        <img
+          class="logo"
+          src="images/wds_logo.png"
+          alt="Web Dev Simplifed Logo"
+        />
+        <ul class="nav-list">
+          <li><a href="#">Curriculum</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a class="btn" href="#">Contact</a></li>
+        </ul>
+      </nav>
     </footer>
   </body>
 </html>
