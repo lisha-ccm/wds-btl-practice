@@ -48,10 +48,6 @@ body {
   color: white;
 }
 
-/* .nav-list-items {
-  margin: 0 1rem;
-} */
-
 .nav-list a {
   text-decoration: none;
   margin-left: 1rem;
@@ -98,67 +94,6 @@ body {
   bottom: 1rem;
   width: 30px;
 }
-/*.nav-bar,
-.footer {
-  background-color: rgb(36, 36, 36);
-  color: white;
-  font-size: 1.5rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-list {
-  margin: 0;
-  display: flex;
-  list-style-type: none;
-  color: white;
-}
-
-.nav-list-items {
-  margin: 0 1rem;
-}
-
-.btn {
-  background-color: rgb(38, 103, 233);
-  color: white;
-  border-radius: 100px;
-  font-size: inherit;
-}
-
-/* .container-lrg {
-  position: relative;
-  text-align: center;
-}
-
-.cont-lrg-item {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
-
-.cont-lrg-item-dwn {
-  position: absolute;
-
-  left: 50%;
-  bottom: 10px;
-  background-color: none;
-} 
-
-.cirriculm-section {
-  column-count: 2;
-}
-
-.cirriculm-header {
-  column-span: all;
-}
-
-.cirriculm-header,
-.free-header,
-.contact-header {
-  text-align: center;
-} */
 
 .section {
   padding: 2rem;
